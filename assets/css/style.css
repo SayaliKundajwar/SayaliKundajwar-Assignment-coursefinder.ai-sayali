@@ -136,7 +136,7 @@ a {
 
 .noti-icon {
     border: 1px solid #FAFBFC3D;
-    padding: 8px 15px !important;
+    padding: 5px 14px !important;
     border-radius: 14px;
 }
 
@@ -155,14 +155,13 @@ a {
     object-fit: cover;
 }
 
-
-
 .l-navbar {
     position: fixed;
     top: 17%;
     left: 0;
     width: auto;
-    height: calc(100vh - 64px);
+    height: 100%;
+    /*height: calc(100vh - 64px);*/
     background: #fff;
     transition: width 0.3s ease, left 0.3s ease;
     z-index: 10;
@@ -271,6 +270,10 @@ a {
     display: none;
 }
 
+.mainsection .user-detail h4 {
+    font-size: 24px;
+    font-weight: 400;
+}
 /*-------------- inner page cards*/
 .main-card {
     background: var(--white-color);
@@ -446,7 +449,7 @@ footer {
     .carousel-section .cover {
         padding: 20px 30px;
         width: 100%;
-        height:100%;
+        height: 100%;
         background: linear-gradient(90deg, rgba(34, 108, 245, 1) 0%, rgba(19, 71, 166, 1) 50%, rgba(0, 22, 62, 1) 100%);
         box-shadow: 0 1px 15px 0 #00000008;
         border-radius: 8px;
@@ -752,6 +755,7 @@ footer {
         padding: 0px 15px 25px 15px;
     }
 }
+
 @media (min-width: 992px) {
 
     .body-pd {
@@ -761,20 +765,22 @@ footer {
     .body-collapsed {
         padding-left: 80px;
     }
+
     .l-navbar {
         top: 7%;
     }
-    .l-navbar.collapsed {
-        width: 80px; /* COLLAPSED width */
-    }
 
-        .l-navbar.collapsed .nav_name {
-            display: none;
+        .l-navbar.collapsed {
+            width: 80px; /* COLLAPSED width */
         }
 
-        .l-navbar.collapsed .nav_icon {
-            margin: auto;
-        }
+            .l-navbar.collapsed .nav_name {
+                display: none;
+            }
+
+            .l-navbar.collapsed .nav_icon {
+                margin: auto;
+            }
 
     body.body-collapsed {
         padding-left: 80px;

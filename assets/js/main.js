@@ -77,7 +77,7 @@ $('.main-carousel').owlCarousel({
     loop: true,
     dots: true,
     nav: false,
-    autoplay: false,
+    autoplay: true,
     responsive: {
         0: {
             items: 1
