@@ -78,6 +78,8 @@ $('.main-carousel').owlCarousel({
     dots: true,
     nav: false,
     autoplay: true,
+    margin: 0,
+    item: 1,
     responsive: {
         0: {
             items: 1
@@ -96,7 +98,7 @@ $('.news-carousel').owlCarousel({
     loop: true,
     dots: true,
     nav: false,
-    autoplay: true,
+    
     responsive: {
         0: {
             items: 1
