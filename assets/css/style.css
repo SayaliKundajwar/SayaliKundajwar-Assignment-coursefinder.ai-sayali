@@ -448,18 +448,7 @@ footer {
     width: 100%;
 }
 
-    .carousel-section .row {
-        margin-right: 0;
-        margin-left: 0;
-    }
-
-    .carousel-section .col-md-7,
-    .carousel-section .col-md-4 {
-        padding-right: 15px;
-        padding-left: 15px;
-    }
-
-    .carousel-section .cover {
+    .carousel-section .carousel-inner {
         box-sizing: border-box;
         padding: 20px 20px;
         width: 100%;
@@ -470,110 +459,49 @@ footer {
         overflow: hidden;
     }
 
-        .carousel-section .cover img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-        }
 
-        .carousel-section .cover h2 {
-            font-weight: 700;
-            font-size: 16px;
-            color: var(--white-color);
-        }
-
-        .carousel-section .cover h1 {
-            font-size: 24px;
-            font-weight: 500;
-            color: var(--white-color);
-        }
-
-
-        .carousel-section .cover h4 {
-            font-size: 16px;
-            font-weight: 400;
-            line-height: 25px;
-            color: var(--white-color);
-            margin-bottom: 20px;
-        }
-
-        .carousel-section .cover .btn-carousel {
-            background: var(--white-color);
-            color: var(--primary-color);
-            font-size: 16px;
-            font-weight: 700;
-            padding: 10px 16px;
-        }
-
-    .carousel-section .owl-nav .owl-prev {
-        position: absolute;
-        left: 15px;
-        top: 43%;
-        opacity: 0;
-        -webkit-transition: all 0.4s ease-out;
-        transition: all 0.4s ease-out;
-        background: rgba(0, 0, 0, 0.5) !important;
-        width: 40px;
-        cursor: pointer;
-        height: 40px;
-        position: absolute;
-        display: block;
-        z-index: 1000;
-        border-radius: 0;
+    .carousel-section .carousel-inner h2 {
+        font-weight: 700;
+        font-size: 16px;
+        color: var(--white-color);
     }
 
-        .carousel-section .owl-nav .owl-prev span {
-            font-size: 1.6875rem;
-            color: var(--white-color);
-        }
-
-        .carousel-section .owl-nav .owl-prev:focus {
-            outline: 0;
-        }
-
-        .carousel-section .owl-nav .owl-prev:hover {
-            background: #000 !important;
-        }
-
-    .carousel-section .owl-nav .owl-next {
-        position: absolute;
-        right: 15px;
-        top: 43%;
-        opacity: 0;
-        -webkit-transition: all 0.4s ease-out;
-        transition: all 0.4s ease-out;
-        background: rgba(0, 0, 0, 0.5) !important;
-        width: 40px;
-        cursor: pointer;
-        height: 40px;
-        position: absolute;
-        display: block;
-        z-index: 1000;
-        border-radius: 0;
-    }
-
-        .carousel-section .owl-nav .owl-next:focus {
-            outline: 0;
-        }
-
-        .carousel-section .owl-nav .owl-next:hover {
-            background: #000 !important;
-        }
-
-    .carousel-section:hover .owl-prev {
-        left: 0px;
-        opacity: 1;
-    }
-
-    .carousel-section:hover .owl-next {
-        right: 0px;
-        opacity: 1;
+    .carousel-section .carousel-inner h1 {
+        font-size: 24px;
+        font-weight: 500;
+        color: var(--white-color);
     }
 
 
-/*----------------- news carousel*/
-.news-section {
-}
+    .carousel-section .carousel-inner h4 {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25px;
+        color: var(--white-color);
+        margin-bottom: 20px;
+    }
+
+    .carousel-section .carousel-inner .btn-carousel {
+        background: var(--white-color);
+        color: var(--primary-color);
+        font-size: 16px;
+        font-weight: 700;
+        padding: 10px 16px;
+    }
+    .carousel-section .carousel-indicators {
+        position: static;
+    }
+        .carousel-section .carousel-indicators button {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            margin-right: 8px;
+            margin-left: 8px;
+            background-color: #869791;
+        }
+    /*----------------- news carousel*/
+    .news-section {
+    }
 
     .news-section .news-carousel .title-box p {
         font-size: 14px;
